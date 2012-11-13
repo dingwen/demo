@@ -34,6 +34,7 @@ class AppController extends Controller
 {
     public $helpers = array('Html', 'Form', 'Session');
 
+    // Use Acl, Auth, authentication redirects and Session components.
     public $components = array(
         'Acl',
         'Session',
@@ -45,10 +46,13 @@ class AppController extends Controller
 
     public function beforeFilter()
     {
+        // Apply the authorization and Acl to all the controllers and actions.
         $this->Auth->authorize = array(
             AuthComponent::ALL => array('actionPath' => 'controllers'),
             'Actions'
         );
-        $this->Auth->allow('index', 'view', 'display', 'logout', 'login');
+
+        // Setup the pages or actions which don't require authentication
+        $this->Auth->allow('display', 'logout', 'login');
     }
 }

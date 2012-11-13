@@ -60,13 +60,13 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'internal-db.s97164.gridserver.com',
-		'login' => 'db97164_main',
-		'password' => 'Na4SuufjwvhO3amzMoUJ',
-		'database' => 'db97164_ubc_demo',
-		'prefix' => '',
+        'datasource' => 'Database/Mysql',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'root',
+        'password' => 'root',
+        'database' => 'ubc_demo',
+        'prefix' => '',
 		'encoding' => 'utf8',
 	);
 

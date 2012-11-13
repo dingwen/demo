@@ -10,14 +10,14 @@
 <p>
     Username: staff<br>
     Password: 12345<br>
-    Role: Staff
+    Role: Staff<br>
 
-    Can only view Lists.
+    Can only view Universities Lists.
 </p>
 <p>
     Username: admin<br>
     Password: 12345<br>
-    Role: Administrator
+    Role: Administrator<br>
 
     Has all the access
 </p>
