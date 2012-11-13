@@ -112,3 +112,151 @@
 #3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
 #4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-11-11 03:40:38 Error: Fatal Error (4): syntax error, unexpected ')' in [F:\xampp\htdocs\demo\app\Controller\UniversitiesController.php, line 41]
+2012-11-11 03:40:38 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 41, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'F:\xampp\htdocs...', 41, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 03:46:33 Error: [MissingActionException] Action UniversitiesController::universities() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 03:59:05 Error: Fatal Error (4): syntax error, unexpected ',', expecting ']' in [F:\xampp\htdocs\demo\app\Controller\UniversitiesController.php, line 46]
+2012-11-11 03:59:05 Error: [FatalErrorException] syntax error, unexpected ',', expecting ']'
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 46, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'F:\xampp\htdocs...', 46, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 03:59:38 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Universities\in_place_update.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 04:00:38 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Universities\in_place_update.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 04:01:59 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Universities\in_place_update.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 04:08:31 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Universities\in_place_update.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 23:27:18 Error: [MissingActionException] Action UniversitiesController::export_csv() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 23:27:40 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Universities\export.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-12 23:52:29 Error: [MissingHelperException] Helper class SesstionHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Sesstion')
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(813): HelperCollection->__isset('Sesstion')
+#2 F:\xampp\htdocs\demo\app\View\Users\login.ctp(1): View->__get('Sesstion')
+#3 F:\xampp\htdocs\demo\lib\Cake\View\View.php(921): include('F:\xampp\htdocs...')
+#4 F:\xampp\htdocs\demo\lib\Cake\View\View.php(884): View->_evaluate('F:\xampp\htdocs...', Array)
+#5 F:\xampp\htdocs\demo\lib\Cake\View\View.php(476): View->_render('F:\xampp\htdocs...')
+#6 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#7 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-12 23:56:58 Error: Fatal Error (4): syntax error, unexpected ')' in [F:\xampp\htdocs\demo\app\View\Layouts\default.ctp, line 44]
+2012-11-12 23:56:58 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 44, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'F:\xampp\htdocs...', 44, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 00:00:08 Error: [MissingHelperException] Helper class AithHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Aith')
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(813): HelperCollection->__isset('Aith')
+#2 F:\xampp\htdocs\demo\app\View\Layouts\default.ctp(44): View->__get('Aith')
+#3 F:\xampp\htdocs\demo\lib\Cake\View\View.php(921): include('F:\xampp\htdocs...')
+#4 F:\xampp\htdocs\demo\lib\Cake\View\View.php(884): View->_evaluate('F:\xampp\htdocs...', Array)
+#5 F:\xampp\htdocs\demo\lib\Cake\View\View.php(540): View->_render('F:\xampp\htdocs...')
+#6 F:\xampp\htdocs\demo\lib\Cake\View\View.php(484): View->renderLayout('', 'default')
+#7 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#8 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#9 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-13 00:00:21 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Auth')
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(813): HelperCollection->__isset('Auth')
+#2 F:\xampp\htdocs\demo\app\View\Layouts\default.ctp(44): View->__get('Auth')
+#3 F:\xampp\htdocs\demo\lib\Cake\View\View.php(921): include('F:\xampp\htdocs...')
+#4 F:\xampp\htdocs\demo\lib\Cake\View\View.php(884): View->_evaluate('F:\xampp\htdocs...', Array)
+#5 F:\xampp\htdocs\demo\lib\Cake\View\View.php(540): View->_render('F:\xampp\htdocs...')
+#6 F:\xampp\htdocs\demo\lib\Cake\View\View.php(484): View->renderLayout('', 'default')
+#7 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#8 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#9 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-13 00:03:01 Error: Fatal Error (4): syntax error, unexpected '[', expecting ',' or ';' in [F:\xampp\htdocs\demo\app\View\Layouts\default.ctp, line 45]
+2012-11-13 00:03:01 Error: [FatalErrorException] syntax error, unexpected '[', expecting ',' or ';'
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'F:\xampp\htdocs...', 45, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'F:\xampp\htdocs...', 45, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 02:13:42 Error: Fatal Error (1): Call to a member function allow() on a non-object in [F:\xampp\htdocs\demo\app\Controller\UsersController.php, line 12]
+2012-11-13 02:13:42 Error: [FatalErrorException] Call to a member function allow() on a non-object
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\xampp\htdocs...', 12, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\xampp\htdocs...', 12, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 02:15:08 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 02:16:38 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 02:20:39 Error: Fatal Error (1): Call to undefined method View::input() in [F:\xampp\htdocs\demo\app\View\Users\login.ctp, line 6]
+2012-11-13 02:20:39 Error: [FatalErrorException] Call to undefined method View::input()
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'F:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'F:\xampp\htdocs...', 6, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'F:\xampp\htdocs...', 6, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 02:21:40 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Users\index.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
