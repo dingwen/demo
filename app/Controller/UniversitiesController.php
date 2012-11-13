@@ -7,6 +7,10 @@ App::uses('AppController', 'Controller');
  */
 class UniversitiesController extends AppController
 {
+    public function beforeFilter() {
+        parent::beforeFilter();
+    }
+
     public function view()
     {
         $universities = $this->University->find('all');

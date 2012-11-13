@@ -1,5 +1,4 @@
 <fieldset>
-    <?php echo $this->Session->flash('auth'); ?>
     <legend>User login</legend>
     <?php
     echo $this->form->create('User');
@@ -8,3 +7,17 @@
     echo $this->form->end('Login')
     ?>
 </fieldset>
+<p>
+    Username: staff<br>
+    Password: 12345<br>
+    Role: Staff
+
+    Can only view Lists.
+</p>
+<p>
+    Username: admin<br>
+    Password: 12345<br>
+    Role: Administrator
+
+    Has all the access
+</p>

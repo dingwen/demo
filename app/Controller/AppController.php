@@ -21,7 +21,6 @@
  */
 
 App::uses('Controller', 'Controller');
-
 /**
  * Application Controller
  *
@@ -36,10 +35,20 @@ class AppController extends Controller
     public $helpers = array('Html', 'Form', 'Session');
 
     public $components = array(
+        'Acl',
         'Session',
         'Auth' => array(
-            'loginRedirect' => array('controller' => 'Universities', 'action' => 'view'),
+            'loginRedirect'  => array('controller' => 'Universities', 'action' => 'view'),
             'logoutRedirect' => array('controller' => 'Users', 'action' => 'login')
         )
     );
+
+    public function beforeFilter()
+    {
+        $this->Auth->authorize = array(
+            AuthComponent::ALL => array('actionPath' => 'controllers'),
+            'Actions'
+        );
+        $this->Auth->allow('index', 'view', 'display', 'logout', 'login');
+    }
 }

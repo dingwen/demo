@@ -260,3 +260,144 @@
 #3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2012-11-13 02:41:17 Error: [MissingActionException] Action GroupsController::index() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 02:41:27 Error: [MissingActionException] Action GroupsController::index() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 02:41:40 Error: [MissingActionException] Action GroupsController::index() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 03:00:29 Error: [MissingActionException] Action GroupsController::index() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 03:00:42 Error: [MissingActionException] Action GroupsController::index() could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 04:13:59 Error: [MissingHelperException] Helper class AclHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Acl')
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(813): HelperCollection->__isset('Acl')
+#2 F:\xampp\htdocs\demo\app\View\Users\login.ctp(20): View->__get('Acl')
+#3 F:\xampp\htdocs\demo\lib\Cake\View\View.php(921): include('F:\xampp\htdocs...')
+#4 F:\xampp\htdocs\demo\lib\Cake\View\View.php(884): View->_evaluate('F:\xampp\htdocs...', Array)
+#5 F:\xampp\htdocs\demo\lib\Cake\View\View.php(476): View->_render('F:\xampp\htdocs...')
+#6 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#7 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-13 04:14:22 Error: [MissingHelperException] Helper class AclHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(862): HelperCollection->load('Acl', Array)
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(469): View->loadHelpers()
+#2 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-13 04:14:27 Error: [MissingHelperException] Helper class AclHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(862): HelperCollection->load('Acl', Array)
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(469): View->loadHelpers()
+#2 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-13 04:16:27 Error: [MissingViewException] View file "F:\xampp\htdocs\demo\app\View\Users\acl_check.ctp" is missing.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\View.php(473): View->_getViewFileName(NULL)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#2 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-13 04:17:08 Error: Fatal Error (1): Call to undefined method UsersController::autoRender() in [F:\xampp\htdocs\demo\app\Controller\UsersController.php, line 33]
+2012-11-13 04:17:08 Error: [FatalErrorException] Call to undefined method UsersController::autoRender()
+#0 F:\xampp\htdocs\demo\lib\Cake\Error\ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'F:\xampp\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'F:\xampp\htdocs...', 33, Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'F:\xampp\htdocs...', 33, Array)
+#3 F:\xampp\htdocs\demo\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 04:33:16 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 
+)
+"
+#0 F:\xampp\htdocs\demo\lib\Cake\Model\Permission.php(89): AclNode->node(Array)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\Acl\DbAcl.php(71): Permission->check(Array, 'controllers/Gro...', '*')
+#2 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\AclComponent.php(108): DbAcl->check(Array, 'controllers/Gro...', '*')
+#3 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(39): AclComponent->check(Array, 'controllers/Gro...')
+#4 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\AuthComponent.php(379): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(GroupsController))
+#7 F:\xampp\htdocs\demo\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 F:\xampp\htdocs\demo\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#10 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#11 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#12 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#13 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-11-13 04:33:51 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Group
+    [Aro0.foreign_key] => 
+)
+"
+#0 F:\xampp\htdocs\demo\lib\Cake\Model\Permission.php(89): AclNode->node(Array)
+#1 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\Acl\DbAcl.php(71): Permission->check(Array, 'controllers/Uni...', '*')
+#2 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\AclComponent.php(108): DbAcl->check(Array, 'controllers/Uni...', '*')
+#3 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\Auth\ActionsAuthorize.php(39): AclComponent->check(Array, 'controllers/Uni...')
+#4 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\AuthComponent.php(379): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 F:\xampp\htdocs\demo\lib\Cake\Controller\Component\AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(UniversitiesController))
+#7 F:\xampp\htdocs\demo\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 F:\xampp\htdocs\demo\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#10 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#11 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#12 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#13 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-11-13 04:43:52 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 F:\xampp\htdocs\demo\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Auth')
+#1 F:\xampp\htdocs\demo\lib\Cake\View\View.php(813): HelperCollection->__isset('Auth')
+#2 F:\xampp\htdocs\demo\app\View\Layouts\default.ctp(45): View->__get('Auth')
+#3 F:\xampp\htdocs\demo\lib\Cake\View\View.php(921): include('F:\xampp\htdocs...')
+#4 F:\xampp\htdocs\demo\lib\Cake\View\View.php(884): View->_evaluate('F:\xampp\htdocs...', Array)
+#5 F:\xampp\htdocs\demo\lib\Cake\View\View.php(540): View->_render('F:\xampp\htdocs...')
+#6 F:\xampp\htdocs\demo\lib\Cake\View\View.php(484): View->renderLayout('', 'default')
+#7 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#8 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#9 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UniversitiesController), Object(CakeRequest), Object(CakeResponse))
+#10 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-13 05:22:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 F:\xampp\htdocs\demo\lib\Cake\Model\Datasource\DboSource.php(261): Mysql->connect()
+#1 F:\xampp\htdocs\demo\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 F:\xampp\htdocs\demo\lib\Cake\Model\Model.php(3157): ConnectionManager::getDataSource('default')
+#3 F:\xampp\htdocs\demo\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 F:\xampp\htdocs\demo\lib\Cake\Model\Model.php(3179): Model->setSource('users')
+#5 F:\xampp\htdocs\demo\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 F:\xampp\htdocs\demo\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 F:\xampp\htdocs\demo\lib\Cake\View\Helper\FormHelper.php(438): FormHelper->_introspectModel('User', 'fields')
+#8 F:\xampp\htdocs\demo\app\View\Users\login.ctp(4): FormHelper->create('User')
+#9 F:\xampp\htdocs\demo\lib\Cake\View\View.php(921): include('F:\xampp\htdocs...')
+#10 F:\xampp\htdocs\demo\lib\Cake\View\View.php(884): View->_evaluate('F:\xampp\htdocs...', Array)
+#11 F:\xampp\htdocs\demo\lib\Cake\View\View.php(476): View->_render('F:\xampp\htdocs...')
+#12 F:\xampp\htdocs\demo\lib\Cake\Controller\Controller.php(956): View->render(NULL, NULL)
+#13 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 F:\xampp\htdocs\demo\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 F:\xampp\htdocs\demo\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}

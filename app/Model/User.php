@@ -7,27 +7,31 @@ App::uses('AuthComponent', 'Controller/Component');
  */
 class User extends AppModel
 {
-    public $validate = array(
-        'username' => array(
-            'required' => array(
-                'rule'    => array('notEmpty'),
-                'message' => 'A username is required'
-            )
-        ),
-        'password' => array(
-            'required' => array(
-                'rule'    => array('notEmpty'),
-                'message' => 'A password is required'
-            )
-        ),
-        'role'     => array(
-            'valid' => array(
-                'rule'       => array('inList', array('admin', 'author')),
-                'message'    => 'Please enter a valid role',
-                'allowEmpty' => FALSE
-            )
-        )
-    );
+    public $belongsTo = array('Group');
+    public $actsAs = array('Acl' => array('type' => 'requester'));
+
+    public function parentNode()
+    {
+        if (!$this->id && empty($this->data)) {
+            return NULL;
+        }
+
+        if (isset($this->data['User']['group_id'])) {
+            $groupId = $this->data['User']['group_id'];
+        } else {
+            $groupId = $this->field('group_id');
+        }
+
+        if (!$groupId) {
+            return NULL;
+        } else {
+            return array('Group' => array('id' => $groupId));
+        }
+    }
+
+    public function bindNode($user) {
+        return array('model' => 'Group', 'foreign_key' => $user['User']['group_id']);
+    }
 
     public function beforeSave($options = array())
     {
